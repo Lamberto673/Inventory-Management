@@ -17,10 +17,20 @@ The goal is not to overcomplicate things, but to make inventory data easy to rea
 
 ## ScreenShots
 
-### DashBoard
+### Landing Page
 <img width="1901" height="916" alt="image" src="https://github.com/user-attachments/assets/3799d1e0-2bf2-4f71-8dfd-df11baab91e0" />
 
+### DashBoard
+<img width="1915" height="894" alt="image" src="https://github.com/user-attachments/assets/a6acbbaf-002e-4df9-87a4-9d355783ab43" />
 
+### Inventory
+<img width="1904" height="756" alt="image" src="https://github.com/user-attachments/assets/bbada0cd-bd0f-4dab-99c9-68f38a761c88" />
+
+### Add Product
+<img width="1652" height="716" alt="image" src="https://github.com/user-attachments/assets/092fd5d2-82d0-47aa-8aa4-9c0e03ae058e" />
+
+### Settings
+<img width="1505" height="596" alt="image" src="https://github.com/user-attachments/assets/9c7c688a-710c-42c0-9a9e-86b5c696e5f7" />
 
 ---
 
