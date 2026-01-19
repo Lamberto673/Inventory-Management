@@ -1,4 +1,4 @@
-<img width="1901" height="916" alt="image" src="https://github.com/user-attachments/assets/3799d1e0-2bf2-4f71-8dfd-df11baab91e0" /># Inventory Management App
+# Inventory Management App
 
 A simple inventory management web app built to keep track of products, stock levels, and basic insights in one place. This project focuses on clean UI, clear data flow, and practical features you’d expect from a small internal inventory tool.
 
@@ -16,7 +16,11 @@ The app is structured around a few core pages:
 The goal is not to overcomplicate things, but to make inventory data easy to read, update, and navigate.
 
 ## ScreenShots
-![Alt text for the screenshot](<img width="1901" height="916" alt="image" src="https://github.com/user-attachments/assets/2b2ac91a-490c-4d75-816e-01b17b845aaa" />)
+
+### DashBoard
+<img width="1901" height="916" alt="image" src="https://github.com/user-attachments/assets/3799d1e0-2bf2-4f71-8dfd-df11baab91e0" />
+
+
 
 ---
 
