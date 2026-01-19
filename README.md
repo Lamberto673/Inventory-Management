@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<img width="1901" height="916" alt="image" src="https://github.com/user-attachments/assets/3799d1e0-2bf2-4f71-8dfd-df11baab91e0" /># Inventory Management App
 
-## Getting Started
+A simple inventory management web app built to keep track of products, stock levels, and basic insights in one place. This project focuses on clean UI, clear data flow, and practical features you’d expect from a small internal inventory tool.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app is structured around a few core pages:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* **Dashboard** – quick overview and insights
+* **Inventory** – list, search, and manage products
+* **Add Product** – add new items into the system
+* **Settings** – basic account and profile management
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The goal is not to overcomplicate things, but to make inventory data easy to read, update, and navigate.
 
-## Learn More
+## ScreenShots
+![Alt text for the screenshot](<img width="1901" height="916" alt="image" src="https://github.com/user-attachments/assets/2b2ac91a-490c-4d75-816e-01b17b845aaa" />)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Pages & Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Dashboard
 
-## Deploy on Vercel
+The dashboard gives a high-level snapshot of the inventory:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* **Key metrics**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+  * Total number of products
+  * Total inventory value
+  * Number of low-stock items
+* **Weekly activity chart**
+
+  * Visualizes how many products are added per week
+* **Stock levels**
+
+  * Quick list showing which items are low or healthy in stock
+* **Efficiency chart**
+
+  * Shows the ratio between in-stock and low-stock items
+
+This page is meant to answer: *“How is my inventory doing right now?”* at a glance.
+
+---
+
+### Inventory
+
+The inventory page is where most day-to-day work happens.
+
+* Product table with:
+
+  * Name
+  * SKU
+  * Price
+  * Quantity
+  * Low stock threshold
+* **Search**
+
+  * Filter products by name using query parameters
+* **Pagination**
+
+  * Navigate through large product lists without loading everything at once
+* **Actions**
+
+  * Delete products directly from the list
+
+The URL-driven search and pagination make the page refresh-safe and shareable.
+
+---
+
+### Add Product
+
+A dedicated form for adding new products:
+
+* Required fields:
+
+  * Product name
+  * Price
+  * Quantity
+* Optional fields:
+
+  * SKU
+  * Low stock threshold
+* Basic validation to prevent invalid entries
+
+This page keeps product creation straightforward and separate from the main inventory list.
+
+---
+
+### Settings
+
+Account-related configuration and preferences:
+
+* Profile information (display name)
+* Profile image
+* Placeholder sections for:
+
+  * Authentication
+  * Notifications
+  * Active sessions
+  * Additional settings
+
+The settings page is structured to be expandable as more user-related features are added.
+
+---
+
+## Tech Notes
+
+* Built with **Next.js (App Router)**
+* Server-side rendering for data-heavy pages
+* URL-based state for search and pagination
+* Modular components for reuse (tables, pagination, sidebar)
+
+---
+
+## Purpose
+
+This project was built as a practical learning and portfolio project:
+
+* to understand real-world data flow
+* to practice server components and query handling
+* to design a clean, usable dashboard-style UI
+
+It’s intentionally simple, but structured in a way that can scale with more features later on.
+
+
+---
+
+If you’re reading this repo, feel free to explore the code and adapt it for your own use cases.
