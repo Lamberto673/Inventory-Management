@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Remove white highlight from Stack Auth components */
+[data-stack-component] mark,
+[class*="stack"] mark {
+  background: transparent;
+  color: inherit;
+}
